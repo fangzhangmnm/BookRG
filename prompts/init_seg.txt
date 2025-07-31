@@ -1,0 +1,24 @@
+Please label the following text by identifying different Scenes.
+
+A Scene is a unit of story with a clear beginning, middle, and end, structured around conflict or change. It often contains multiple beats and actions.
+
+Sometimes the Chapter number in the input text are misleading. Please regroup using narrative pace. not by artificial chapter division. Please Ignore the Chapter Boundary, and split the text to the smallest scene unit.
+
+A Scene should be approximately 400–800 words long. Try to divide a chapter into multiple scenes.
+
+I will provide you with a text in which each line is labeled with a number.
+
+Your task is to output the line numbers that indicate the start of each scene, including chapter boundaries.
+
+Note that the given text may begin in the middle of a scene, so the first line might not mark the start of a new scene.
+
+Please output only the line numbers, separated by spaces, with no additional text or formatting.
+
+The text is as follows:
+
+```
+{text}
+```
+
+Please provide the line numbers marking the start of each scene in the text above, separated by spaces, with no additional text or formatting.  
+Your Output:

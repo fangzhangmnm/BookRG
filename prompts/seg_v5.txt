@@ -1,0 +1,23 @@
+You will be given a list of text sections, each labeled with a number. Each section summarizes part of a story, but these parts belong to larger narrative units.
+
+Your task is to analyze the structure and group the sections into these higher-level narrative units. The number of groups should be around 0.2x - 0.6x as much as the number of text sections, but not strictly.
+
+Identify and list the section numbers that mark the beginning of each higher-level narrative unit. Keep in mind that the text is being clamped, so the first section with a label greater than 1 may not necessarily be a starting point.
+
+If there are multiple parallel sidequest. Try to group them. If you found it is hardly reduce the number of groups, try to agressively group them into bigger bundles.
+
+Try to identify important narrative closures and use them as narrative boundary.
+
+请使用中文思考。
+
+Format Requirement:
+- Output only the section numbers indicating the start of each narrative unit, separated by spaces. Do not include any additional text or formatting.
+
+Text:
+
+```
+{text}
+```
+
+Please output the section numbers indicating the start of each narrative unit, separated by spaces. Do not include any additional text or formatting.
+Your Output:
