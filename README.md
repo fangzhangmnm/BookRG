@@ -75,7 +75,7 @@
 1. 在`book-rg`文件夹空白处：按住`Shift+右键` →【在此处打开命令窗口】
 2. 输入命令（替换文件名）：
    ```bash
-   python book_rg.py 你的小说.txt --model_1 deepseek-chat
+   python book_rg.py 你的小说.txt --model_1 deepseek-chat --model_2 deepseek-reasoner --base_url https://api.deepseek.com/v1 --api_key_environ DEEPSEEK_API_KEY
    ```
    > 示例：`python book_rg.py 凡人修仙传.txt --model_1 deepseek-chat`
 
